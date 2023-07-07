@@ -29,3 +29,40 @@
 .item:hover{
     color: red;
 }
+
+
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    color: rgb(8, 247, 87);
+    background-image: url("./images/background.png"),
+    linear-gradient(45deg, rgb(1, 2, 0), rgb(52, 56, 55));;
+}
+.tittle{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.explr-btn{
+    height: 35px;
+    width: 150px;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 25px;
+    font-weight: bold;
+    background-color: rgb(16, 12, 247);
+    color: rgb(255, 255, 255);
+}
+.explr-btn:hover{
+ background-color: rgb(241, 15, 7);
+ color: rgb(4, 250, 4);
+}
